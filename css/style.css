@@ -1,0 +1,91 @@
+/* Tag attributes */
+
+body {
+  font-family: Montserrat, sans-serif;
+  background: rgb(1, 26, 81);
+}
+header {
+  margin-top: 20px;
+  padding: 30px 15px 5px 15px;
+}
+footer {
+  padding: 25px 0 25px 0;
+}
+input {
+  width: 100%;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  overflow-x: visible;
+}
+button {
+  border: none;
+  width: 100%;
+  height: 50px;
+  margin: 5px 0 5px 0;
+  background-color: rgb(255, 255, 255);
+}
+button:active {
+  background-color: rgb(24, 110, 181);
+}
+*:focus {
+  outline: none;
+}
+a {
+  text-decoration: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+a:link, a:visited {
+  border: none;
+  text-decoration: underline;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* Created classes*/
+
+
+/* Created IDs */
+
+#data-fields {
+  padding: 30px 15px 5px 15px;
+}
+#entry-field {
+  font-size: 20px;
+  text-align: right;
+}
+#result-field {
+  font-size: 30px;
+  text-align: right;
+  font-weight: bold;
+  height: 60px;
+}
+#buttons {
+  padding: 0px 15px 0px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#calculator-body {
+  margin-top: 20px;
+  background: rgb(229, 229, 229);
+}
+@media (max-width: 380px) {
+  #buttons {
+    font-size: 14px;
+  }
+}
+
+/* Modified bootstrap classes */
+
+.form-control {
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: none;
+}

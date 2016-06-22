@@ -4,36 +4,45 @@ body {
   font-family: Montserrat, sans-serif;
   background: rgb(1, 26, 81);
 }
-header {
-  margin-top: 20px;
-  padding: 30px 15px 5px 15px;
+main {
+  background: rgb(229, 229, 229);
+  width: 320px;
+  height: 480px;
+  text-align: center;
+  margin: auto;
+  right: 0;
+  left: 0;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.8), 0 9px 30px 0 rgba(0, 0, 0, 0.8);
 }
-footer {
-  padding: 25px 0 25px 0;
+header {
+  font-size: 30px;
+  font-weight: bold;
 }
 input {
-  width: 100%;
+  width: 280px;
   border: none;
+  text-align: right;
+  margin: 0px 10px 0px 10px;
   padding: 0px 10px 0px 10px;
   overflow-x: visible;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
 button {
   border: none;
-  width: 100%;
-  height: 50px;
-  margin: 5px 0 5px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 63px;
+  height: 54px;
+  margin: 5px;
   background-color: rgb(255, 255, 255);
 }
 button:active {
-  background-color: rgb(24, 110, 181);
+  background-color: rgb(229, 229, 229);
+}
+footer {
+  padding: 15px 0 0px 0;
 }
 *:focus {
   outline: none;
-}
-a {
-  text-decoration: inherit;
-  font-style: inherit;
-  color: inherit;
 }
 a:link, a:visited {
   border: none;
@@ -46,46 +55,18 @@ a:hover {
   color: rgb(0, 0, 0);
 }
 
-/* Created classes*/
-
-
 /* Created IDs */
 
-#data-fields {
-  padding: 30px 15px 5px 15px;
-}
 #entry-field {
-  font-size: 20px;
-  text-align: right;
+  font-size: 16px;
 }
 #result-field {
-  font-size: 30px;
-  text-align: right;
-  font-weight: bold;
-  height: 60px;
-}
-#buttons {
-  padding: 0px 15px 0px 15px;
   font-size: 20px;
   font-weight: bold;
+  height: 40px;
 }
-#calculator-body {
-  margin-top: 20px;
-  background: rgb(229, 229, 229);
-}
-@media (max-width: 380px) {
-  #buttons {
-    font-size: 14px;
-  }
-}
-
-/* Modified bootstrap classes */
-
-.form-control {
-  border-radius: 0px;
-  border: none;
-  box-shadow: none;
-}
-.btn:focus, .btn:active:focus, .btn.active:focus {
-  outline: none;
+#buttons {
+  padding: 5px 0px 0px 0px;
+  font-size: 20px;
+  font-weight: bold;
 }

@@ -5,6 +5,6 @@
     "jquery"
   ],
   "loadEagerly": [
-    "scripts/*.js"
+    "*.js"
   ]
 }

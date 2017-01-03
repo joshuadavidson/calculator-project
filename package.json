@@ -2,7 +2,7 @@
   "name": "calculator-project",
   "version": "1.0.0",
   "description": "Simple web-based calculator",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "watch": "webpack --watch --progress --colors",
     "build": "webpack --progress --colors"

@@ -24,6 +24,7 @@ deploy:
   bucket: $BUCKET_NAME
   # Path to a directory containing built site
   local_dir: dist
+  # keep the dist folder created by webpack so that travis can upload to s3
   skip_cleanup: true
   # Set the Access Control List Permissions to Public read only
   acl: public_read

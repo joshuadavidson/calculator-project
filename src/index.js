@@ -1,6 +1,11 @@
 /* establish global variables for ESLint */
 /* global $ document */
 
+import 'jquery';
+
+// import custom styles for project
+import './index.scss';
+
 let answer = '0';// Answer from last evaluation
 
 // function that takes a button that has been pressed and updates the calculator display

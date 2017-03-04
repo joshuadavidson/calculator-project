@@ -6,8 +6,8 @@ cache:
     # cache the node_modules folder between builds
     - node_modules
 install:
-  # install dev dependencies for webpack build
-  - npm install --only=dev
+  # install all dependencies for webpack build
+  - npm install
   # cloudfront-invalidate-cli is required for invalidation of CloudFront distributions
   # cloudfront-invalidate-cli requires the use of aws-sdk, ini, and yargs
   - npm install cloudfront-invalidate-cli aws-sdk ini yargs

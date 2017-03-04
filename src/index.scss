@@ -1,10 +1,13 @@
 // Pull in normalize css
 @import '../node_modules/normalize.css/normalize.css';
 
+// import google font
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 /* Tag attributes */
 
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: rgb(1, 26, 81);
 }
 main {
@@ -37,6 +40,8 @@ button {
   height: 54px;
   margin: 5px;
   background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
 }
 button:active {
   background-color: rgb(229, 229, 229);
@@ -70,6 +75,4 @@ a:hover {
 }
 #buttons {
   padding: 5px 0px 0px 0px;
-  font-size: 20px;
-  font-weight: bold;
 }

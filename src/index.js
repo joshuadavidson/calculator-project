@@ -1,7 +1,7 @@
 /* establish global variables for ESLint */
 /* global $ document */
 
-import 'jquery';
+import $ from 'jquery';
 
 // import custom styles for project
 import './index.scss';
